@@ -2,12 +2,9 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 
-// PSEUDO CODE
-
-// Create a variable declaration and a variable name equal to a string datatype with your name inside.
-
 //CODE HERE 
 
+// // Create a variable declaration and a variable name equal to a string datatype with your name inside.
 // var myName = 'Mark Nakayama'
 
 
@@ -15,12 +12,9 @@
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 
-// PSEUDO CODE
-
-// Add a variable declaration and a variable name equal to a number datatype with your favorite number.
-
 //CODE HERE
 
+// // Add a variable declaration and a variable name equal to a number datatype with your favorite number.
 // var faveNum = 11
 
 
@@ -28,13 +22,9 @@
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 
-// PSEUDO CODE
-
-// Use a variable declaration and a variable name equal to a boolean datatype of choice.
-
-
 //CODE HERE
 
+// // Use a variable declaration and a variable name equal to a boolean datatype of choice.
 // var lovesCode = true
 
 
@@ -46,20 +36,15 @@
 */
 
 
-// PSEUDO CODE
-
-// Add a variable declaration and a variable name equal to a number datatype with your favorite number.
-// Using an if statement have the variable name deeply equal 13.
-// console.log the string data type lucky 13!
-// else create a console.log the string data type not lucky 13
-
-
 //CODE HERE
 
+// // Add a variable declaration and a variable name equal to a number datatype with your favorite number.
 // var faveNum = 11
-
+// // Using an if statement have the variable name deeply equal 13.
 // if ( faveNum  === 13 ){
+//   // console.log the string data type lucky 13!
 //   console.log('lucky 13!')
+//   // else create a console.log the string data type not lucky 13
 // } else {
 //     console.log('not lucky 13')
 // }
@@ -71,17 +56,14 @@
 */
 
 
-// PSEUDO CODE
-
-// Add a variable declaration and a variable name equal to a number datatype with your favorite number.
-// Use a for loop with paramters for equaling zero, less than five, and increment one integer at a time.
-// Then console.log the variable name. 
-
-
 //CODE HERE
 
+// // Add a variable declaration and a variable name equal to a number datatype with your favorite number.
 // var faveNum = 11
-
+// // Use a for loop with paramters for equaling zero, less than five, and increment one integer at a time.
 // for( let i = 0; i < 5; i++ ){
+//   // Then console.log the variable name. 
 //   console.log(faveNum)
 // }
+
+

@@ -1,20 +1,40 @@
 // PASSWORD VALIDATOR
 
-// PSEUDO CODE
-
 
 // CODE HERE 
 
-const password = '287386349083087'
+let password = 'Doggies74839'
 
-if ( password.length < 10 ) {
-    console.log('Please use at least 10 characters')
-} else if ( password != 0-9 ){
-    console.log('Please use at least one number')
-} else if ( password !== a-z ){
-    console.log('Please use at least one letter')
-} else{
-    console.log('Access Granted')
+// checking variable requirements are met
+let numCheck = false
+let upperCheck = false
+let letterCheck = false
+let minChars = false
+
+for(let i = 0; i < password.length; i++){
+    //verfiy password contains at min one number
+    if(!isNaN(+password[i])){
+        numCheck = true
+    }
+
+    //verify number is uppercase
+    if (password [i] === password[i].toUpperCase() && isNaN(+password[i])){
+        upperCheck = true
+    }
 }
 
+//verify password contains at min one letter
+if(/[a-zA-Z].test(password)/){
+    letterCheck = true
+}
 
+//verify password has min and max char length
+if(password.length >= 10 && password.length <= 20){
+minChars = true
+}
+
+if(minChars && letterCheck && upperCheck && numCheck){
+    console.log('Password Verified!')
+} else {
+    console.log('Check your password to make sure it fills all the requirements')
+}

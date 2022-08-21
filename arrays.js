@@ -4,24 +4,17 @@
 // const faveColors = ['red', 'green', 'black']
 
 
-// PSEUDO CODE
-
-
 //CODE HERE
 
 // const faveColors = ['red', 'green', 'black']
 
 // var colorCopy = faveColors.slice(0, 3)
 
-// console.log(faveColors)
+// console.log(colorCopy)
 
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
-
-
-// PSEUDO CODE
-
 
 //CODE HERE
 
@@ -39,9 +32,6 @@
 */
 
 // const numbers = [1, 2, 3, 4, 5]
-
-
-// PSEUDO CODE
 
 
 //CODE HERE
@@ -66,9 +56,6 @@
 // const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 
-// PSEUDO CODE
-
-
 // CODE HERE
 
 // const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
@@ -78,8 +65,7 @@
 //   if ( bigOrSmallArray[i] > 100 ){
 //     answers.push('big');
 //   } 
-//   else {
-//       bigOrSmallArray[i] <= 100
+//   else if (bigOrSmallArray[i] <= 100){
 //       answers.push('small');
 //     }
 // }
